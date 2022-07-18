@@ -1,0 +1,13 @@
+general:                  
+steps: 
+ gctsDeploy:
+   host: "https://s4hana2021.clebaltech.com:8001"
+   client: "200"
+   abapCredentialsId: "ADITYA_CREDENTIALS"
+   repository: "adtygpt-adtygpt"
+   remoteRepositoryURL: "https://github.com/adtygpt/adtygpt"
+   role: "PROVIDED"
+   vSID: "DEV"
+   verbose: true
+   type: "GITHUB"
+   rollback: false
