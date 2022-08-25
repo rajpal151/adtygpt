@@ -8,7 +8,7 @@ pipeline {
     stage('Prepare') {
       when {
         anyOf {
-          branch 'feature'
+          branch 'bugfix'
         }
       }
       steps {
