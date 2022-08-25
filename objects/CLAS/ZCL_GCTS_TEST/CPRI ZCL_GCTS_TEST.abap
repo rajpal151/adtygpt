@@ -1,1 +1,3 @@
 private section.
+
+  methods TEST .
