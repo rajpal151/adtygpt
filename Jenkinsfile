@@ -19,7 +19,7 @@ pipeline {
     stage('Deploy') {
       when {
         anyOf {
-          branch 'feature'
+          branch 'bugfix'
         }
       }
       steps {
