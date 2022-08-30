@@ -9,7 +9,7 @@ steps:
    role: 'PROVIDED'
    vSID: 'DEV'
    branch: 'bugfix'
-    commit: '0ea3e78'
+    commit: '63481e8'
     scope: 'CRNTCOMMIT'
     rollback: false
     configuration:
