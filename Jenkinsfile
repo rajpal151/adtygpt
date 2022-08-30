@@ -33,7 +33,7 @@ pipeline {
           role: 'PROVIDED',
           vSID: 'DEV',
           branch: 'bugfix',
-          commit: '	63481e8',
+          commit: '63481e8',
           scope: 'LASTACTION',
           rollback: true,
           configuration: [VCS_AUTOMATIC_PULL: 'FALSE',VCS_AUTOMATIC_PUSH: 'FALSE',CLIENT_VCS_LOGLVL: 'debug']
